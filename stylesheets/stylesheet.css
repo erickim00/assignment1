@@ -21,7 +21,6 @@ aside ul{
     flex-direction: row;
     justify-content: space-around;
 }
-
 main{
     display: grid;
     grid-template-rows: max-content  max-content  max-content  max-content;
@@ -58,6 +57,7 @@ div.bottom{
 footer{
     text-align: center;
 }
+
 
 
 .button{
@@ -101,4 +101,18 @@ footer{
 }
 .about{
     margin-right: 1em;
+}
+
+
+@media (min-width: 600px){
+    body{
+        grid-template-rows: max-content auto max-content;
+        grid-template-columns: 1fr 4fr;
+    }
+    aside{
+        grid-row: 1/-1;
+    }
+    aside ul{
+        flex-direction: column;
+    }
 }
