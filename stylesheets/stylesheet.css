@@ -1,58 +1,58 @@
 body{
-    background-color: #f2e9dd;
-    font-family: Montserrat;
-    color: #005457;
     margin:0;
     display:grid;
-    grid-template-rows: auto auto 1fr auto;
     height: 100vh;
+    color: #005457;
+    font-family: Montserrat;
+    background-color: #f2e9dd;
+    grid-template-rows: auto auto 1fr auto;
 }
 header{
     text-align: center;
  }
  aside{
-    background-color: #faf4ed;
     text-align: center;
+    background-color: #faf4ed;
  }
 aside ul{
-    list-style: square;
-    text-align: left;
     display: flex;
+    text-align: left;
+    list-style: square;
     flex-direction: row;
     justify-content: space-around;
 }
 main{
     display: grid;
-    grid-template-rows: max-content  max-content  max-content  max-content;
     margin: 0 1em 1em 1em;
+    grid-template-rows: max-content  max-content  max-content  max-content;
 }
 nav{
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
-    margin-bottom: 2em;
     margin-top: 2em;
+    margin-bottom: 2em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
 }
 div.top{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 2em;
+    align-items: center;
+    justify-content: space-between;
 }
 textarea{
     resize: none;
     height: 12em;
-    font-family: 'Courier New', Courier, monospace;
     font-size: large;
     border: 4px solid #22508C;
     background-color: #faf4ed;
+    font-family: 'Courier New', Courier, monospace;
 }
 div.bottom{
     display: flex;
-    justify-content: right;
-    align-items: center;
     margin-top: 2em;
+    align-items: center;
+    justify-content: right;
 }
 footer{
     text-align: center;
@@ -61,15 +61,15 @@ footer{
 
 
 .button{
+    height: 3em;
+    color: white;
     cursor: pointer;
     border-radius: 10px;
     border-style: hidden;
-    color: white;
-    height: 3em;
 }
 .newnote{
-    background-color: #005457;
     width: 6em;
+    background-color: #005457;
 }
 .newnote:hover{
     background-color: #00777b;
@@ -82,16 +82,16 @@ footer{
     background-color: #8803f5;
 }
 .save{
-    margin-right: 1em;
     width: 5em;
+    margin-right: 1em;
     background-color: #005457;
 }
 .save:hover{
     background-color: #00777b;
 }
 .cancel{
-    background-color: #862D27;
     width: 6em;
+    background-color: #862D27;
 }
 .cancel:hover{
     background-color: #a23a32;
@@ -106,8 +106,8 @@ footer{
 
 @media (min-width: 600px){
     body{
-        grid-template-rows: max-content auto max-content;
         grid-template-columns: 1fr 4fr;
+        grid-template-rows: max-content auto max-content;
     }
     aside{
         grid-row: 1/-1;
