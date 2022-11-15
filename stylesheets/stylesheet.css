@@ -22,6 +22,44 @@ aside ul{
     justify-content: space-around;
 }
 
+main{
+    display: grid;
+    grid-template-rows: max-content  max-content  max-content  max-content;
+    margin: 0 1em 1em 1em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+div.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+textarea{
+    resize: none;
+    height: 12em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border: 4px solid #22508C;
+    background-color: #faf4ed;
+}
+div.bottom{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 2em;
+}
+footer{
+    text-align: center;
+}
+
+
 .button{
     cursor: pointer;
     border-radius: 10px;
