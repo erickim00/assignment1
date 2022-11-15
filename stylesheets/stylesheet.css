@@ -3,3 +3,47 @@ body{
     font-family: Montserrat;
     color: #005457;
 }
+
+
+.button{
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: hidden;
+    color: white;
+    height: 3em;
+}
+.newnote{
+    background-color: #005457;
+    width: 6em;
+}
+.newnote:hover{
+    background-color: #00777b;
+}
+.darktheme{
+    background-color: #6D00C7;
+    width: 7em;
+}
+.darktheme:hover{
+    background-color: #8803f5;
+}
+.save{
+    margin-right: 1em;
+    width: 5em;
+    background-color: #005457;
+}
+.save:hover{
+    background-color: #00777b;
+}
+.cancel{
+    background-color: #862D27;
+    width: 6em;
+}
+.cancel:hover{
+    background-color: #a23a32;
+}
+.button:active{
+    background-color: gray;
+}
+.about{
+    margin-right: 1em;
+}
