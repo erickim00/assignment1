@@ -23,3 +23,12 @@ function goDark ()
 }
 
 darktheme.addEventListener('click', goDark)
+
+function hideTextarea ()
+{
+    textarea.classList.toggle('hide')
+    save.classList.toggle('hide')
+    cancel.classList.toggle('hide')
+}
+
+cancel.addEventListener('click', hideTextarea)
