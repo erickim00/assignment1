@@ -64,3 +64,15 @@ function noteSaver ()
 }
 
 save.addEventListener('click', noteSaver)
+
+function noteChecker (e)
+{
+   for(let object of notesArray){
+        if(object.title.includes(e.target.textContent)){
+            textarea.value = object.body
+        }
+    }
+}
+
+notelist.addEventListener('click', noteChecker)
+
