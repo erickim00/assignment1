@@ -58,6 +58,14 @@ div.bottom{
 footer{
     text-align: center;
 }
+aside ul li:hover{
+    cursor: pointer;
+    color: #3e056d;
+}
+aside ul li:active{
+    cursor: pointer;
+    color: gray;
+}
 
 
 
@@ -109,23 +117,17 @@ footer{
 
 
 .darkbody{
-    background-color: gray;
+    background-color: rgb(83, 83, 83);
     color: white;
 }
-.darkdarktheme{
+.darkbutton{
     background-color: black;
 }
-.darknewnote{
-    background-color: black;
-}
-.darksave{
-    background-color: black;
-}
-.darkcancel{
-    background-color: black;
+.darkbutton:hover{
+    background-color: rgb(36, 36, 36);
 }
 .darkaside{
-    background-color: silver;
+    background-color: rgb(100, 100, 100);
 }
 .darktextarea{
     background-color: darkgrey;

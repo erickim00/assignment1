@@ -19,10 +19,10 @@ notelist.addEventListener('click', noteChecker)
 function goDark ()
 {
     document.body.classList.toggle('darkbody');
-    darktheme.classList.toggle('darkdarktheme');
-    newnote.classList.toggle('darknewnote');
-    save.classList.toggle('darksave');
-    cancel.classList.toggle('darkcancel');
+    darktheme.classList.toggle('darkbutton');
+    newnote.classList.toggle('darkbutton');
+    save.classList.toggle('darkbutton');
+    cancel.classList.toggle('darkbutton');
     aside.classList.toggle('darkaside');
     textarea.classList.toggle('darktextarea');
 }
