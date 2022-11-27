@@ -49,4 +49,18 @@ const notesArray =
     {title:'note one', body:'this is my first note'},
     {title:'note two', body:'this my second note'}
 ]
+const notelist = document.querySelector('aside ul')
 
+function noteSaver ()
+{
+    if (textarea.value !== '')
+    {
+        notetitle = prompt('Please title your new note: ')
+        notesArray.push({title: notetitle, body: textarea.value})
+        let newNoteItem = document.createElement('li')
+        newNoteItem.textContent = notetitle
+        notelist.appendChild(newNoteItem)
+    }
+}
+
+save.addEventListener('click', noteSaver)
