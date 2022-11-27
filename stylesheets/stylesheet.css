@@ -61,6 +61,7 @@ footer{
 
 
 
+
 .button{
     height: 3em;
     color: white;
@@ -103,6 +104,41 @@ footer{
 .about{
     margin-right: 1em;
 }
+
+
+
+
+.darkbody{
+    background-color: gray;
+    color: white;
+}
+.darkdarktheme{
+    background-color: black;
+}
+.darknewnote{
+    background-color: black;
+}
+
+.darksave{
+    background-color: black;
+}
+
+.darkcancel{
+    background-color: black;
+}
+.darkaside{
+    background-color: silver;
+}
+.darktextarea{
+    background-color: darkgrey;
+    border: 4px solid black;
+}
+
+
+
+
+
+
 
 
 @media (min-width: 600px){
