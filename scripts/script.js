@@ -43,3 +43,10 @@ function newNoteMaker ()
 }
 
 newnote.addEventListener('click', newNoteMaker)
+
+const notesArray = 
+[
+    {title:'note one', body:'this is my first note'},
+    {title:'note two', body:'this my second note'}
+]
+
