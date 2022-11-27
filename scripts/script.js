@@ -26,9 +26,20 @@ darktheme.addEventListener('click', goDark)
 
 function hideTextarea ()
 {
-    textarea.classList.toggle('hide')
-    save.classList.toggle('hide')
-    cancel.classList.toggle('hide')
+    textarea.classList.add('hide')
+    save.classList.add('hide')
+    cancel.classList.add('hide')
 }
 
 cancel.addEventListener('click', hideTextarea)
+
+function newNoteMaker ()
+{
+    if (textarea.classList.contains('hide'))
+    {textarea.classList.remove('hide')
+    save.classList.remove('hide')
+    cancel.classList.remove('hide')}
+    else {textarea.value = ''}
+}
+
+newnote.addEventListener('click', newNoteMaker)
